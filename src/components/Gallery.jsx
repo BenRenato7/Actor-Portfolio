@@ -5,13 +5,6 @@ import { Dialog, DialogContent } from './ui/dialog';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-  const [filter, setFilter] = useState('all');
-
-  const categories = ['all', 'casual', 'dramatic', 'professional'];
-
-  const filteredHeadshots = filter === 'all'
-    ? actorInfo.headshots
-    : actorInfo.headshots.filter(shot => shot.category === filter);
 
   const handleDownload = (imageUrl, fileName) => {
     const link = document.createElement('a');
@@ -38,27 +31,9 @@ const Gallery = () => {
           </p>
         </div>
 
-        {/* Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setFilter(category)}
-              className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
-                filter === category
-                  ? 'bg-rose-700 text-white shadow-lg'
-                  : 'bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white'
-              }`}
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
-              {category.charAt(0).toUpperCase() + category.slice(1)}
-            </button>
-          ))}
-        </div>
-
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredHeadshots.map((shot) => (
+          {actorInfo.headshots.map((shot) => (
             <div
               key={shot.id}
               className="group relative aspect-[3/4] overflow-hidden rounded-lg cursor-pointer"
