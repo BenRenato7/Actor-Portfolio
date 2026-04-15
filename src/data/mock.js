@@ -41,7 +41,7 @@ export const actorInfo = {
   ],
   showreel: {
     title: "Demo Reel 2025",
-    videoUrl: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/ek2isf3n_Demo%20Reel.mp4",
+    videoUrl: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/c38x8vun_Ben%20Renato%20Demoreel%20.mp4",
     thumbnail: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/j9sh5b11_YELLOWBELLY%20PHOTO%20-%20BEN%20RENATO-2.jpg",
     isDirectVideo: true
   },
