@@ -26,7 +26,7 @@ const Showreel = () => {
               <img
                 src={actorInfo.showreel.thumbnail}
                 alt="Showreel Thumbnail"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain bg-slate-900"
               />
               <div className="absolute inset-0 bg-slate-900/60 group-hover:bg-slate-900/40 transition-colors duration-300 flex items-center justify-center">
                 <div className="w-20 h-20 bg-rose-700 group-hover:bg-rose-600 rounded-full flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 shadow-xl">
