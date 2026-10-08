@@ -15,9 +15,10 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover"
           style={{
             backgroundImage: `url('${actorInfo.headshots[0].url}')`,
+            backgroundPosition: 'center 30%',
             filter: 'brightness(0.4)'
           }}
         />
