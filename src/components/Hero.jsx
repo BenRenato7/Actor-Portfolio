@@ -18,7 +18,7 @@ const Hero = () => {
           className="absolute inset-0 bg-cover"
           style={{
             backgroundImage: `url('${actorInfo.headshots[0].url}')`,
-            backgroundPosition: 'center 10%',
+            backgroundPosition: 'center 8%',
             filter: 'brightness(0.4)'
           }}
         />
