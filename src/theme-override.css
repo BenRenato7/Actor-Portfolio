@@ -1,0 +1,130 @@
+/* Black & Light Silver Theme Override */
+
+/* BACKGROUNDS - Pure Black */
+body, section {
+  background-color: #000000 !important;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+.bg-slate-900, .bg-slate-950, .bg-slate-800 {
+  background-color: #000000 !important;
+}
+
+footer {
+  background-color: #000000 !important;
+  border-top: 1px solid #404040 !important;
+}
+
+/* TEXT COLORS - Light Silver */
+h1, h2, h3 {
+  color: #e2e8f0 !important;
+}
+
+p, span, div, label {
+  color: #cbd5e1 !important;
+}
+
+.text-slate-400, .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+a {
+  color: #cbd5e1 !important;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff !important;
+}
+
+/* BUTTONS - Silver Theme */
+button, .bg-rose-700, .bg-rose-600 {
+  background-color: #e2e8f0 !important;
+  color: #000000 !important;
+}
+
+button:hover, .bg-rose-700:hover, .bg-rose-600:hover {
+  background-color: #ffffff !important;
+}
+
+.border-slate-300, .border-rose-400 {
+  border-color: #e2e8f0 !important;
+  color: #e2e8f0 !important;
+}
+
+.border-slate-300:hover, .border-rose-400:hover {
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.text-rose-400, .text-rose-700 {
+  color: #e2e8f0 !important;
+}
+
+/* INPUT FIELDS */
+input, textarea, select {
+  background-color: #1a1a1a !important;
+  border-color: #404040 !important;
+  color: #e2e8f0 !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 0 0 2px rgba(226, 232, 240, 0.1) !important;
+}
+
+/* BORDERS */
+.border-slate-800, .border-rose-700 {
+  border-color: #404040 !important;
+}
+
+/* HOVER EFFECTS */
+.bg-slate-900:hover, .hover\:bg-slate-800:hover {
+  background-color: #1a1a1a !important;
+}
+
+footer .bg-slate-900:hover {
+  background-color: #e2e8f0 !important;
+  color: #000000 !important;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e2e8f0;
+}
+
+/* SELECTION */
+::selection {
+  background-color: #e2e8f0;
+  color: #000000;
+}
+
+/* NAVIGATION */
+nav a, nav button {
+  color: #cbd5e1 !important;
+}
+
+nav a:hover, nav button:hover {
+  color: #ffffff !important;
+}
+
+header button {
+  color: #e2e8f0 !important;
+}
+
+header button:hover {
+  color: #ffffff !important;
+}
