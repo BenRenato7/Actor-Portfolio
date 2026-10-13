@@ -231,5 +231,41 @@ export const actorInfo = {
       name: "Casting Networks",
       url: "https://app.castingnetworks.com/talent/profile/251329229#div-media"
     }
+  ], selectedStills: [
+    {
+      id: 1,
+      url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/e705109135614cbc_Zero%2C%20s1%20.webp",
+      project: "Zerø",
+      character: "Jun.",
+      year: "2024"
+    },
+    {
+      id: 2,
+      url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/ffcf35489d286638_Zero%20Roof%20Top.webp",
+      project: "Zerø",
+      character: "Jun.",
+      year: "2024"
+    },
+    {
+      id: 3,
+      url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/3a4524a67a32d58a_Zero%20Poster.JPG",
+      project: "Zerø",
+      character: "Jun.",
+      year: "2024"
+    },
+    {
+      id: 4,
+      url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/e5ff3fda683acdd8_Ryan%20Caruso%20Backstage%20.png",
+      project: "Homesick",
+      character: "Ryan Caruso",
+      year: "2027"
+    },
+    {
+      id: 5,
+      url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/fa0ee5dd265a932c_Forest%20Brothers%20Debut%201.jpg",
+      project: "Forest Brothers",
+      character: "Markas",
+      year: "2026"
+    }
   ]
 };
