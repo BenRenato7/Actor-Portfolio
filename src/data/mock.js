@@ -266,6 +266,13 @@ export const actorInfo = {
       project: "Forest Brothers",
       character: "Markas",
       year: "2026"
+    },
+    {
+      id: 6,
+      url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/ecf624e84983c0f0_Hey%20Joe%20Still%20Us%20Sailor.webp",
+      project: "Hey Joe",
+      character: "US Sailor",
+      year: "2024"
     }
   ]
 };
