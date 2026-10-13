@@ -3,7 +3,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Gallery from "./components/Gallery";
+import Gallery from "./components/Gallery"; 
+import SelectedStills from "./components/SelectedStills";
 import Showreel from "./components/Showreel";
 import About from "./components/About";
 import Resume from "./components/Resume";
@@ -13,10 +14,11 @@ import { Toaster } from "./components/ui/toaster";
 
 const Home = () => {
   return (
-    <div className="bg-slate-900">
+      <div className="bg-black">
       <Header />
       <Hero />
       <Gallery />
+       <SelectedStills />
       <Showreel />
       <About />
       <Resume />
