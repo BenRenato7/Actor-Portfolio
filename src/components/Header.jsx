@@ -22,9 +22,10 @@ const Header = () => {
     }
   };
 
-  const navItems = [
+ const navItems = [
     { label: 'Home', id: 'home' },
     { label: 'Gallery', id: 'gallery' },
+    { label: 'Selected Stills', id: 'selected-stills' },
     { label: 'Showreel', id: 'showreel' },
     { label: 'About', id: 'about' },
     { label: 'Resume', id: 'resume' },
