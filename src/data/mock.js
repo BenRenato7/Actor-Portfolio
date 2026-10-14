@@ -47,11 +47,10 @@ export const actorInfo = {
   },
   resumePDF: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/29n9coku_Ben%20Renato%20Resume%20%281%29%20%281%29.pdf",
   resume: {
-  resume: {
     training: [
       {
         id: 1,
-        institution: "Folster Studio",
+        institution: "Foster Studio",
         program: "The Acting Class with Sean Folster",
         year: "2026 - Current"
       },
@@ -88,7 +87,7 @@ export const actorInfo = {
         location: "Rome, Italy"
       }
     ],
-   credits: [
+    credits: [
       {
         id: 1,
         type: "Film",
@@ -124,39 +123,14 @@ export const actorInfo = {
       },
       {
         id: 5,
-        type: "Film",
-        title: "ZERØ",
+        type: "Commercial",
+        title: "Wander Over Rome",
         role: "Lead",
         year: "2023",
-        director: "Samuel Bruno",
-        note: "Best Cast - Incortivicinati Festival (Napoli)"
+        director: "Aeroporti di Roma"
       },
       {
         id: 6,
-        type: "Film",
-        title: "Grab n' Go",
-        role: "Lead",
-        year: "2023",
-        director: "Evgeny Vdovin"
-      },
-      {
-        id: 7,
-        type: "Film",
-        title: "Per Averti Qui",
-        role: "Supporting",
-        year: "2022",
-        director: "Elio Gambino"
-      },
-      {
-        id: 8,
-        type: "Theater",
-        title: "Hamlet (A Play is a Play)",
-        role: "Hamlet",
-        year: "2024",
-        director: "Jean-Paul Denizon"
-      },
-      {
-        id: 9,
         type: "Theater",
         title: "If Calvino Were One Hundred Years Old",
         role: "Lead",
@@ -165,39 +139,71 @@ export const actorInfo = {
         venue: "Teatro India"
       },
       {
+        id: 7,
+        type: "Film",
+        title: "ZERØ",
+        role: "Lead",
+        year: "2023",
+        director: "Samuel Bruno",
+        note: "Best Cast - Incortivicinati Festival (Napoli)"
+      },
+      {
+        id: 8,
+        type: "Film",
+        title: "Per Averti Qui",
+        role: "Supporting",
+        year: "2022",
+        director: "Elio Gambino"
+      },
+      {
+        id: 9,
+        type: "Film",
+        title: "Grab n' Go",
+        role: "Lead",
+        year: "2021",
+        director: "Evgeny Vdovin"
+      },
+      {
         id: 10,
         type: "Theater",
-        title: "The Bacchae",
-        role: "Tiresias",
-        year: "2023",
-        director: "Simone Perinelli"
+        title: "This Child (Questo Figlio)",
+        role: "Lead",
+        year: "2021",
+        director: "Fabiana Iacozzilli"
       },
       {
         id: 11,
         type: "Theater",
-        title: "This Child (Questo Figlio)",
-        role: "Lead",
-        year: "2022",
-        director: "Fabiana Iacozzilli"
+        title: "The Bacchae",
+        role: "Tiresias",
+        year: "2020",
+        director: "Simone Perinelli"
       },
       {
         id: 12,
         type: "Theater",
-        title: "West Pier",
+        title: "Black and Silver",
         role: "Lead",
-        year: "2022",
-        director: "Luciano Colavero"
+        year: "2019",
+        director: "Tenerezza Fattore"
       },
       {
         id: 13,
-        type: "Commercial",
-        title: "Wander Over Rome",
+        type: "Theater",
+        title: "West Pier",
         role: "Lead",
-        year: "2023",
-        director: "Aeroporti di Roma"
+        year: "2019",
+        director: "Luciano Colavero"
+      },
+      {
+        id: 14,
+        type: "Theater",
+        title: "Hamlet (A Play is a Play)",
+        role: "Hamlet",
+        year: "2019",
+        director: "Jean-Paul Denizon"
       }
     ],
-    
     skills: [
       "English & Italian (Bilingual)",
       "British RP Accent",
@@ -249,8 +255,8 @@ export const actorInfo = {
       name: "Casting Networks",
       url: "https://app.castingnetworks.com/talent/profile/251329229#div-media"
     }
-   ], 
-    selectedStills: [
+  ],
+  selectedStills: [
     {
       id: 1,
       url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/e705109135614cbc_Zero%2C%20s1%20.webp",
