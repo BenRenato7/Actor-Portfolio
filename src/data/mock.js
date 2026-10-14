@@ -96,9 +96,16 @@ export const actorInfo = {
         director: "Alphonso Colicchio"
       },
       {
-    Credits  : [
-       ],
-       {
+   credits: [
+      {
+        id: 1,
+        type: "Film",
+        title: "Homesick",
+        role: "Lead",
+        year: "2027",
+        director: "Alphonso Colicchio"
+      },
+      {
         id: 2,
         type: "Theater",
         title: "Forest Brothers",
@@ -125,23 +132,6 @@ export const actorInfo = {
       },
       {
         id: 5,
-        type: "Commercial",
-        title: "Wander Over Rome",
-        role: "Lead",
-        year: "2023",
-        director: "Aeroporti di Roma"
-      },
-      {
-        id: 6,
-        type: "Theater",
-        title: "If Calvino Were One Hundred Years Old",
-        role: "Lead",
-        year: "2023",
-        director: "Marco Lucchesi",
-        venue: "Teatro India"
-      },
-      { 
-        id: 7,
         type: "Film",
         title: "ZERØ",
         role: "Lead",
@@ -150,7 +140,15 @@ export const actorInfo = {
         note: "Best Cast - Incortivicinati Festival (Napoli)"
       },
       {
-        id: 8,
+        id: 6,
+        type: "Film",
+        title: "Grab n' Go",
+        role: "Lead",
+        year: "2023",
+        director: "Evgeny Vdovin"
+      },
+      {
+        id: 7,
         type: "Film",
         title: "Per Averti Qui",
         role: "Supporting",
@@ -158,55 +156,56 @@ export const actorInfo = {
         director: "Elio Gambino"
       },
       {
+        id: 8,
+        type: "Theater",
+        title: "Hamlet (A Play is a Play)",
+        role: "Hamlet",
+        year: "2024",
+        director: "Jean-Paul Denizon"
+      },
+      {
         id: 9,
-        type: "Film",
-        title: "Grab n' Go",
+        type: "Theater",
+        title: "If Calvino Were One Hundred Years Old",
         role: "Lead",
-        year: "2021”,
-        director: "Evgeny Vdovin"
+        year: "2023",
+        director: "Marco Lucchesi",
+        venue: "Teatro India"
       },
       {
         id: 10,
         type: "Theater",
-        title: "This Child (Questo Figlio)",
-        role: "Lead",
-        year: "2021",
-        director: "Fabiana Iacozzilli"
+        title: "The Bacchae",
+        role: "Tiresias",
+        year: "2023",
+        director: "Simone Perinelli"
       },
       {
         id: 11,
         type: "Theater",
-        title: "The Bacchae",
-        role: "Tiresias",
-        year: "2020",
-        director: "Simone Perinelli"
+        title: "This Child (Questo Figlio)",
+        role: "Lead",
+        year: "2022",
+        director: "Fabiana Iacozzilli"
       },
       {
         id: 12,
-        type: “Theater”
-        title: Black and Silver
-        role: Lead
-        year: 2019
-        director: Tenerezza Fattore
-      },  
-      {
-        id: 13,
         type: "Theater",
         title: "West Pier",
         role: "Lead",
-        year: "2019",
+        year: "2022",
         director: "Luciano Colavero"
       },
       {
-        id: 14,
-        type: "Theater",
-        title: "Hamlet (A Play is a Play)",
-        role: "Hamlet",
-        year: "2019",
-        director: "Jean-Paul Denizon"
-  
+        id: 13,
+        type: "Commercial",
+        title: "Wander Over Rome",
+        role: "Lead",
+        year: "2023",
+        director: "Aeroporti di Roma"
       }
     ],
+    
     skills: [
       "English & Italian (Bilingual)",
       "British RP Accent",
