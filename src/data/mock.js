@@ -249,7 +249,8 @@ export const actorInfo = {
       name: "Casting Networks",
       url: "https://app.castingnetworks.com/talent/profile/251329229#div-media"
     }
-  ], selectedStills: [
+   ], 
+    selectedStills: [
     {
       id: 1,
       url: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/e705109135614cbc_Zero%2C%20s1%20.webp",
