@@ -48,45 +48,45 @@ export const actorInfo = {
   resumePDF: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/29n9coku_Ben%20Renato%20Resume%20%281%29%20%281%29.pdf",
   resume: {
     training: [
-      {
+       },
+       {
         id: 1,
-        institution: "Accademia d'Arte Drammatica Cassiopea",
-        program: "Acting Conservatory",
-        year: "2017-2021",
-        location: "Rome, Italy"
-      },
-      {
+        institution: "Folster Studio",
+        program: "The Acting Class with Sean Folster",
+        year: "2026 - Current"
+       },
+       {
         id: 2,
+        institution: "HB Studios",
+        program: "Acting Shakespeare with Daniel Pearce",
+        year: "2025"
+      },    
+      {
+        id: 3,
+        institution: "Strasberg Institute",
+        program: "Spring Intensive",
+        year: "2025"
+       
+        
+        id: 4,
         institution: "Teatro di Roma",
         program: "Professional Training",
         year: "2023-2024",
         location: "Rome, Italy"
       },
       {
-        id: 3,
-        institution: "HB Studios",
-        program: "Acting Shakespeare with Daniel Pearce",
-        year: "2025"
-      },
-      {
-        id: 4,
-        institution: "Strasberg Institute",
-        program: "Spring Intensive",
-        year: "2025"
-      },
-      {
         id: 5,
-        institution: "Susan Batson Studio",
-        program: "Exer Actor",
-        year: "2024"
-      },
-      {
-        id: 6,
         institution: "Andrea Pangallo",
         program: "Masters in Biomechanics",
         year: "2023"
-      }
-    ],
+      },
+      {
+        id: 6,
+        institution: "Accademia d'Arte Drammatica Cassiopea",
+        program: "Acting Conservatory",
+        year: "2017-2021",
+        location: "Rome, Italy"
+       ],
        {
         id: 1,
         type: "Film",
@@ -96,6 +96,9 @@ export const actorInfo = {
         director: "Alphonso Colicchio"
       },
       {
+    Credits  : [
+       ],
+       {
         id: 2,
         type: "Theater",
         title: "Forest Brothers",
