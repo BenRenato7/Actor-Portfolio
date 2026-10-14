@@ -88,8 +88,24 @@ export const actorInfo = {
       }
     ],
     credits: [
-      {
+       {
         id: 1,
+        type: "Film",
+        title: "Homesick",
+        role: "Lead",
+        year: "2027",
+        director: "Alphonso Colicchio"
+      },
+      {
+        id: 2,
+        type: "Theater",
+        title: "Forest Brothers",
+        role: "Lead",
+        year: "2026",
+        director: "Nathan Paukstelis"
+      },
+      {
+        id: 3,
         type: "Film",
         title: "Hey Joe",
         role: "Co-Star",
@@ -98,7 +114,7 @@ export const actorInfo = {
         note: "With James Franco"
       },
       {
-        id: 2,
+        id: 4,
         type: "Film",
         title: "Dirty Dishes",
         role: "Lead",
@@ -106,7 +122,7 @@ export const actorInfo = {
         director: "Jamie Granato"
       },
       {
-        id: 3,
+        id: 5,
         type: "Film",
         title: "ZERØ",
         role: "Lead",
@@ -115,7 +131,7 @@ export const actorInfo = {
         note: "Best Cast - Incortivicinati Festival (Napoli)"
       },
       {
-        id: 4,
+        id: 6,
         type: "Film",
         title: "Grab n' Go",
         role: "Lead",
@@ -123,7 +139,7 @@ export const actorInfo = {
         director: "Evgeny Vdovin"
       },
       {
-        id: 5,
+        id: 7,
         type: "Film",
         title: "Per Averti Qui",
         role: "Supporting",
@@ -131,7 +147,7 @@ export const actorInfo = {
         director: "Elio Gambino"
       },
       {
-        id: 6,
+        id: 8,
         type: "Theater",
         title: "Hamlet (A Play is a Play)",
         role: "Hamlet",
@@ -139,7 +155,7 @@ export const actorInfo = {
         director: "Jean-Paul Denizon"
       },
       {
-        id: 7,
+        id: 9,
         type: "Theater",
         title: "If Calvino Were One Hundred Years Old",
         role: "Lead",
@@ -148,7 +164,7 @@ export const actorInfo = {
         venue: "Teatro India"
       },
       {
-        id: 8,
+        id: 10,
         type: "Theater",
         title: "The Bacchae",
         role: "Tiresias",
@@ -156,7 +172,7 @@ export const actorInfo = {
         director: "Simone Perinelli"
       },
       {
-        id: 9,
+        id: 11,
         type: "Theater",
         title: "This Child (Questo Figlio)",
         role: "Lead",
@@ -164,7 +180,7 @@ export const actorInfo = {
         director: "Fabiana Iacozzilli"
       },
       {
-        id: 10,
+        id: 12,
         type: "Theater",
         title: "West Pier",
         role: "Lead",
@@ -172,7 +188,7 @@ export const actorInfo = {
         director: "Luciano Colavero"
       },
       {
-        id: 11,
+        id: 13,
         type: "Commercial",
         title: "Wander Over Rome",
         role: "Lead",
