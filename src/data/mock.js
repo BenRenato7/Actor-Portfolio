@@ -274,5 +274,14 @@ export const actorInfo = {
       character: "US Sailor",
       year: "2024"
     }
+  ],
+  testimonials: [
+    {
+      id: 1,
+      project: "HOMESICK",
+      type: "PRODUCTION TESTIMONIAL",
+      quote: "Ben brought an extraordinary amount of depth, emotion, and humanity to Ryan. His commitment to the character elevated every scene, capturing both the physical and emotional intensity at the center of Homesick. Beyond his performance, Ben's experience and professionalism made him an absolute joy to work with throughout production.",
+      author: "The Homesick production team"
+    }
   ]
 };
