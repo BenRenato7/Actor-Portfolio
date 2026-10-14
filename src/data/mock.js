@@ -50,7 +50,7 @@ export const actorInfo = {
     training: [
       {
         id: 1,
-        institution: "Foster Studio",
+        institution: "Folster Studio",
         program: "The Acting Class with Sean Folster",
         year: "2026 - Current"
       },
