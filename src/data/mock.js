@@ -47,27 +47,27 @@ export const actorInfo = {
   },
   resumePDF: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/29n9coku_Ben%20Renato%20Resume%20%281%29%20%281%29.pdf",
   resume: {
+  resume: {
     training: [
-       },
-       {
+      {
         id: 1,
         institution: "Folster Studio",
         program: "The Acting Class with Sean Folster",
         year: "2026 - Current"
-       },
-       {
-        id: 2,
-        institution: "HB Studios",
-        program: "Acting Shakespeare with Daniel Pearce",
-        year: "2025"
-      },    
+      },
       {
-        id: 3,
+        id: 2,
         institution: "Strasberg Institute",
         program: "Spring Intensive",
         year: "2025"
-       
-        
+      },
+      {
+        id: 3,
+        institution: "HB Studios",
+        program: "Acting Shakespeare with Daniel Pearce",
+        year: "2025"
+      },
+      {
         id: 4,
         institution: "Teatro di Roma",
         program: "Professional Training",
@@ -86,16 +86,8 @@ export const actorInfo = {
         program: "Acting Conservatory",
         year: "2017-2021",
         location: "Rome, Italy"
-       ],
-       {
-        id: 1,
-        type: "Film",
-        title: "Homesick",
-        role: "Lead",
-        year: "2027",
-        director: "Alphonso Colicchio"
-      },
-      {
+      }
+    ],
    credits: [
       {
         id: 1,
