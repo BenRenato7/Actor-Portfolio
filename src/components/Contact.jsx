@@ -77,8 +77,8 @@ const Contact = () => {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-rose-700 rounded-lg">
-                    <Mail size={24} className="text-white" />
+                  <div className="p-3 bg-slate-200 rounded-lg">
+                    <Mail size={24} className="text-black" />
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm" style={{ fontFamily: 'Poppins, sans-serif' }}>Email</p>
@@ -88,8 +88,8 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-rose-700 rounded-lg">
-                    <Phone size={24} className="text-white" />
+                  <div className="p-3 bg-slate-200 rounded-lg">
+                    <Phone size={24} className="text-black" />
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm" style={{ fontFamily: 'Poppins, sans-serif' }}>Phone</p>
@@ -99,8 +99,8 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-rose-700 rounded-lg">
-                    <MapPin size={24} className="text-white" />
+                  <div className="p-3 bg-slate-200 rounded-lg">
+                    <MapPin size={24} className="text-black" />
                   </div>
                   <div>
                     <p className="text-slate-500 text-sm" style={{ fontFamily: 'Poppins, sans-serif' }}>Location</p>
