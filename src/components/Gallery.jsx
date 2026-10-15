@@ -44,11 +44,21 @@ const Gallery = () => {
                 alt={shot.alt}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <div className="p-4 w-full">
+ <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                <div className="p-4 w-full flex justify-between items-end">
                   <p className="text-white font-semibold" style={{ fontFamily: 'Poppins, sans-serif' }}>
                     {shot.category.charAt(0).toUpperCase() + shot.category.slice(1)}
                   </p>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleDownload(shot.url, `BenRenato-${shot.category}-${shot.id}.jpg`);
+                    }}
+                    className="p-2 bg-slate-200 hover:bg-white rounded-full transition-colors duration-300"
+                    title="Download"
+                  >
+                    <Download size={20} className="text-black" />
+                  </button>
                 </div>
               </div>
             </div>
