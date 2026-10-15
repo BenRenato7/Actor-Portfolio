@@ -216,7 +216,7 @@ const Contact = () => {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-rose-700 hover:bg-rose-600 text-white font-semibold py-6 rounded-md transition-all duration-300 transform hover:scale-105"
+                className="w-full bg-slate-200 hover:bg-white text-black font-semibold py-6 rounded-md transition-all duration-300 transform hover:scale-105"
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 {isSubmitting ? (
