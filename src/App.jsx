@@ -24,6 +24,7 @@ const Home = () => {
       <Showreel />
       <About />
       <Resume />
+      <InTheirWords />
       <Contact />
       <Footer />
       <Toaster />
