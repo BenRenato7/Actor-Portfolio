@@ -42,7 +42,7 @@ export const actorInfo = {
   showreel: {
     title: "Demo Reel 2025",
     videoUrl: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/c38x8vun_Ben%20Renato%20Demoreel%20.mp4",
-    thumbnail: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/ydmyolc6_YELLOWBELLY%20PHOTO%20-%20BEN%20RENATO-5%20copy.jpg",
+    thumbnail: "https://customer-assets-v7afamib.emergentagent.net/job_actor-hub-11/artifacts/df93bd8eedf5d791_Zer%C3%B8%20thumbnail.pdf",
     isDirectVideo: true
   },
   resumePDF: "https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/29n9coku_Ben%20Renato%20Resume%20%281%29%20%281%29.pdf",
