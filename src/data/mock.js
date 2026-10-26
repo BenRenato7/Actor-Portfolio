@@ -307,6 +307,20 @@ export const actorInfo = {
       type: "PRODUCTION TESTIMONIAL",
       quote: "Ben brought an extraordinary amount of depth, emotion, and humanity to Ryan. His commitment to the character elevated every scene, capturing both the physical and emotional intensity at the center of Homesick. Beyond his performance, Ben's experience and professionalism made him an absolute joy to work with throughout production.",
       author: "The Homesick production team"
+    },
+    {
+      id: 2,
+      project: "ZERØ",
+      type: "DIRECTOR TESTIMONIAL",
+      quote: "I worked with Ben during the shooting of my short film ZERØ. He played Jun, one of the main characters, and managed to develop a unique vision of him. Ben went beyond my initial vision as a director, drawing inspiration from his own life to explore the character's behavior, habits, attitude, and voice. He surprised me by offering a different, deeply personal interpretation of Jun, giving me a new perspective on the character.",
+      author: "Samuel Bruno"
+    },
+    {
+      id: 3,
+      project: "THEATER COLLABORATION",
+      type: "DIRECTOR TESTIMONIAL",
+      quote: "Ben Renato has considerable acting talent and the ability to put it at the service of the director's vision and the needs of the ensemble. Working with him is truly exciting because he helps you discover aspects of characters you had never anticipated and draws you deep into their hidden natures.",
+      author: "Fabiana Iacozzilli"
     }
   ]
 };
