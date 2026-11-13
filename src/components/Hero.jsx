@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           
-          {/* LEFT SIDE: Photo + Bio */}
+          {/* LEFT SIDE: Photo Only */}
           <div className="space-y-8 order-2 lg:order-1">
             {/* Dramatic Photo */}
             <div className="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-lg overflow-hidden shadow-2xl">
@@ -26,19 +26,9 @@ const Hero = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            
-            {/* Bio - Shows on mobile after buttons, on desktop on left */}
-            <div className="lg:block hidden">
-              <p
-                className="text-slate-300 text-base leading-relaxed"
-                style={{ fontFamily: 'Poppins, sans-serif' }}
-              >
-                {actorInfo.bio}
-              </p>
-            </div>
           </div>
 
-          {/* RIGHT SIDE: Name, Tagline, Buttons - CENTERED */}
+          {/* RIGHT SIDE: Name, Tagline, Buttons, Bio */}
           <div className="flex items-start justify-center order-1 lg:order-2">
             <div className="text-center space-y-8 w-full max-w-xl">
               <div>
@@ -73,10 +63,10 @@ const Hero = () => {
                 </button>
               </div>
 
-              {/* Bio on Mobile - Shows after buttons */}
-              <div className="lg:hidden mt-8">
+              {/* Bio - Now on right side for all screen sizes */}
+              <div className="mt-8">
                 <p
-                  className="text-slate-300 text-sm sm:text-base leading-relaxed"
+                  className="text-slate-300 text-sm sm:text-base leading-relaxed text-left"
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   {actorInfo.bio}
