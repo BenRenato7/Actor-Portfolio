@@ -63,10 +63,10 @@ const Hero = () => {
                 </button>
               </div>
 
-              {/* Bio - Now on right side for all screen sizes */}
+              {/* Bio - Now with larger font */}
               <div className="mt-8">
                 <p
-                  className="text-slate-300 text-sm sm:text-base leading-relaxed text-left"
+                  className="text-slate-300 text-base sm:text-lg leading-relaxed text-left"
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   {actorInfo.bio}
