@@ -14,7 +14,7 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-black">
       {/* Desktop: Two Column Layout */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           
           {/* LEFT SIDE: Photo + Bio */}
           <div className="space-y-8 order-2 lg:order-1">
@@ -38,8 +38,8 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* RIGHT SIDE: Name, Tagline, Buttons */}
-          <div className="text-center lg:text-left space-y-8 order-1 lg:order-2">
+          {/* RIGHT SIDE: Name, Tagline, Buttons - ALIGNED TO TOP */}
+          <div className="text-center lg:text-left space-y-8 order-1 lg:order-2 lg:pt-0">
             <div>
               <h1
                 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-slate-200 mb-6 tracking-tight"
