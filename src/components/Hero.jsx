@@ -1,15 +1,7 @@
 import React from 'react';
-import { ChevronDown } from 'lucide-react';
 import { actorInfo } from '../data/mock';
 
 const Hero = () => {
-  const scrollToGallery = () => {
-    const element = document.getElementById('gallery');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-black">
       {/* Desktop: Two Column Layout */}
@@ -63,7 +55,7 @@ const Hero = () => {
                 </button>
               </div>
 
-              {/* Bio - Now with larger font */}
+              {/* Bio */}
               <div className="mt-8">
                 <p
                   className="text-slate-300 text-base sm:text-lg leading-relaxed text-left"
@@ -76,15 +68,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      <button
-        onClick={scrollToGallery}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce cursor-pointer hover:text-rose-400 transition-colors"
-        aria-label="Scroll to gallery"
-      >
-        <ChevronDown size={32} />
-      </button>
     </section>
   );
 };
