@@ -11,38 +11,77 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
-     {/* Black Background */}
-      <div className="absolute inset-0 bg-black" />
-      {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        <h1
-          className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-white mb-6 tracking-tight animate-fade-in"
-          style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.02em' }}
-        >
-          {actorInfo.name.toUpperCase()}
-        </h1>
-        <p
-          className="text-xl sm:text-2xl md:text-3xl text-slate-300 mb-8 tracking-wide animate-fade-in-delay"
-          style={{ fontFamily: 'Poppins, sans-serif', animationDelay: '0.2s' }}
-        >
-          {actorInfo.tagline}
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delay-2" style={{ animationDelay: '0.4s' }}>
-          <button
-            onClick={() => document.getElementById('showreel').scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-4 bg-rose-700 hover:bg-rose-600 text-white font-semibold rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
-            style={{ fontFamily: 'Poppins, sans-serif' }}
-          >
-            Watch Showreel
-          </button>
-          <button
-            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-4 bg-transparent border-2 border-slate-300 hover:border-rose-400 text-slate-300 hover:text-rose-400 font-semibold rounded-md transition-all duration-300 transform hover:scale-105"
-            style={{ fontFamily: 'Poppins, sans-serif' }}
-          >
-            Get in Touch
-          </button>
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-black">
+      {/* Desktop: Two Column Layout */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          
+          {/* LEFT SIDE: Photo + Bio */}
+          <div className="space-y-8 order-2 lg:order-1">
+            {/* Dramatic Photo */}
+            <div className="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-lg overflow-hidden shadow-2xl">
+              <img
+                src="https://customer-assets.emergentagent.com/job_actor-hub-11/artifacts/ydmyolc6_YELLOWBELLY%20PHOTO%20-%20BEN%20RENATO-5%20copy.jpg"
+                alt="Ben Renato - Dramatic Headshot"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            
+            {/* Bio - Shows on mobile after buttons, on desktop on left */}
+            <div className="lg:block hidden">
+              <p
+                className="text-slate-300 text-base leading-relaxed"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                {actorInfo.bio}
+              </p>
+            </div>
+          </div>
+
+          {/* RIGHT SIDE: Name, Tagline, Buttons */}
+          <div className="text-center lg:text-left space-y-8 order-1 lg:order-2">
+            <div>
+              <h1
+                className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-slate-200 mb-6 tracking-tight"
+                style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.02em' }}
+              >
+                {actorInfo.name.toUpperCase()}
+              </h1>
+              <p
+                className="text-xl sm:text-2xl md:text-3xl text-slate-400 mb-8 tracking-wide"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                {actorInfo.tagline}
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <button
+                onClick={() => document.getElementById('showreel').scrollIntoView({ behavior: 'smooth' })}
+                className="px-8 py-4 bg-slate-200 hover:bg-white text-black font-semibold rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                Watch Showreel
+              </button>
+              <button
+                onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+                className="px-8 py-4 bg-transparent border-2 border-slate-300 hover:border-white text-slate-300 hover:text-white font-semibold rounded-md transition-all duration-300 transform hover:scale-105"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                Get in Touch
+              </button>
+            </div>
+
+            {/* Bio on Mobile - Shows after buttons */}
+            <div className="lg:hidden mt-8">
+              <p
+                className="text-slate-300 text-sm sm:text-base leading-relaxed"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                {actorInfo.bio}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
