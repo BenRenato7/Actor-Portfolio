@@ -27,7 +27,6 @@ const Header = () => {
     { label: 'Gallery', id: 'gallery' },
     { label: 'Selected Stills', id: 'selected-stills' },
     { label: 'Showreel', id: 'showreel' },
-    { label: 'About', id: 'about' },
     { label: 'Resume', id: 'resume' },
     { label: 'In Their Words', id: 'in-their-words' },
     { label: 'Contact', id: 'contact' }
