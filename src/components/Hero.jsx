@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
 
           {/* RIGHT SIDE: Name, Tagline, Buttons - ALIGNED TO TOP */}
-          <div className="text-center lg:text-left space-y-8 order-1 lg:order-2 lg:pt-0">
+          <div className="text-center space-y-8 order-1 lg:order-2 lg:pt-0">
             <div>
               <h1
                 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-slate-200 mb-6 tracking-tight"
@@ -55,7 +55,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => document.getElementById('showreel').scrollIntoView({ behavior: 'smooth' })}
                 className="px-8 py-4 bg-slate-200 hover:bg-white text-black font-semibold rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
